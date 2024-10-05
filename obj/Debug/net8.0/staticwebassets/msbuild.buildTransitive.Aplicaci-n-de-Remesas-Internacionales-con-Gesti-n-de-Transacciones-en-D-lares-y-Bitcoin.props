@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Aplicaci-n-de-Remesas-Internacionales-con-Gesti-n-de-Transacciones-en-D-lares-y-Bitcoin.props" />
+</Project>
