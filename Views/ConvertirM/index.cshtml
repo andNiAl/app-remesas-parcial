@@ -1,0 +1,14 @@
+@model app_remesas_parcial.Models.Conversion
+
+<form asp-controller="convertir" asp-action="CM" method="post">
+    <label asp-for="Monto">Ingresa monto a convertir:</label>
+    <input asp-for="Monto" type="number" id="monto" name="monto" required>
+
+    <label asp-for="MonedaOrigen">Moneda de origen:</label>
+    <select asp-for="MonedaOrigen" id="monedaOrigen" name="monedaOrigen">
+        <option asp-for="MonedaOrigen" value="BTC">BTC</option>
+        <option asp-for="MonedaOrigen" value="USD">USD</option>
+    </select>
+
+    <button type="submit">Hacer Conversion</button>
+</form>
